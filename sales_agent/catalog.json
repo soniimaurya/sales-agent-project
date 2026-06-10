@@ -1,0 +1,39 @@
+{
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "$49/mo",
+      "annual_price": "$470/yr",
+      "features": ["5 users", "API access", "email support", "1GB storage", "Basic analytics", "Community forum access"],
+      "ideal_for": "Freelancers and small teams getting started",
+      "limitations": "No SSO, no webhooks, no SLA"
+    },
+    {
+      "name": "Growth",
+      "price": "$199/mo",
+      "annual_price": "$1,910/yr",
+      "features": ["25 users", "API access", "webhooks", "priority support", "10GB storage", "Advanced analytics", "Custom integrations", "Role-based access control"],
+      "ideal_for": "Growing teams that need automation and integrations",
+      "limitations": "No SSO, no audit logs, no SLA"
+    },
+    {
+      "name": "Enterprise",
+      "price": "$499/mo",
+      "annual_price": "$4,790/yr",
+      "features": ["unlimited users", "SSO (SAML 2.0, OIDC)", "audit logs", "SLA (99.9% uptime)", "API access", "webhooks", "priority support", "Unlimited storage", "Custom analytics dashboards", "Dedicated account manager", "Custom contracts", "HIPAA / SOC2 compliance"],
+      "ideal_for": "Large organizations needing compliance, security, and scale",
+      "limitations": "None"
+    }
+  ],
+  "add_ons": [
+    {"name": "Extra Storage", "price": "$10/mo per 10GB"},
+    {"name": "Additional Users (Starter)", "price": "$5/mo per user beyond 5"},
+    {"name": "White-label Branding", "price": "$99/mo"}
+  ],
+  "faq": [
+    {"question": "Can I upgrade or downgrade my plan?", "answer": "Yes, plan changes take effect immediately and are prorated."},
+    {"question": "Is there a free trial?", "answer": "Yes, all plans come with a 14-day free trial. No credit card required."},
+    {"question": "What payment methods do you accept?", "answer": "We accept all major credit cards, ACH bank transfers, and invoicing for Enterprise clients."},
+    {"question": "Do you offer discounts for non-profits or education?", "answer": "Yes, we offer 30% off for verified non-profits and educational institutions."}
+  ]
+}
